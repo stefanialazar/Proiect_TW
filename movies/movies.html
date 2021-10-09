@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Greek Mythology Movies </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="movies.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="movies.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="navi">
+            <li class="navi_item">
+                <div class="dropdown">
+                    <button class="dropbtn"> <img src="../photos/meniu1.png" id="meniu" alt="Meniu"> </button>
+                    <div class="dropdown_content">
+                        <a href="../GreekGods.html">GREEK GODS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="navi_item">
+                <a href="#top" id="title_link">
+                    <p id="title"> GREEK GODS </p>
+                </a>
+            </li>
+            <li class="navi_item">
+                <div class="dropdown">
+                    <button class="dropbtn"> <img src="../photos/search.png" id="search" alt="Search"></button>
+                    <div class="dropdown_content dropdown_content_right">
+                        <a href="../Zeus/Zeus.html">ZEUS</a>
+                        <a href="../Poseidon/Poseidon.html">POSEIDON</a>
+                        <a href="../Hera/Hera.html">HERA</a>
+                        <a href="../Demeter/Demeter.html">DEMETER</a>
+                        <a href="../Hermes/Hermes.html">HERMES</a>
+                        <a href="../Apollo/Apollo.html">APOLLO</a>
+                        <a href="../Aphro/Aphrodite.html">APRHODITE</a>
+                        <a href="../Ares/Ares.html">ARES</a>
+                        <a href="../Hepha/Hephaestus.html">HEPHAESTUS</a>
+                        <a href="../Athena/Athena.html">ATHENA</a>
+                        <a href="../Dion/Dionysus.html">DIONYSUS</a>
+                        <a href="../Hades/Hades.html">HADES</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="first">
+            <h1 class="firstitle">Greek Mythology Movies</h1>
+            <h3 id="semititle">You pretend to be a fan of the Greek Mythology. Let's see how many movies you've seen about this topic. (once you click submit the movies you've already seen will be inaccessible)
+            </h3>
+            <div id="form">
+                <p>Click on input and type away!</p>
+                <form class="form">
+                    <label id="fname">Your favorite Greek Mythology Movie:</label>
+                    <input type="text" id="inputfilm" name="fname"><br>
+                </form>
+                <p id="type"></p>
+            </div>
+
+            <button id="genNew">Generate New Random Color</button>
+            <button id="genDim">Generate New Font Size</button>
+        </div>
+
+
+        <div class="photos">
+            <span class="film1">
+                <img src="1.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">Troy (2004)</p>
+                <input type="checkbox" id="film1" name="film">
+            </span>
+            <span class="film2">
+                <img src="2.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">300 (2006)</p>
+                <input type="checkbox" id="film2" name="film">
+            </span>
+            <span class="film3">
+                <img src="3.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">Percy Jackson and The Lightning Thief(2010)</p>
+                <input type="checkbox" id="film3" name="film">
+            </span>
+            <span class="film4">
+                <img src="4.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">Percy Jackson and The Sea Monsters(2013)</p>
+                <input type="checkbox" id="film4" name="film">
+            </span>
+            <span class="film5">
+                <img src="5.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">Hercules (1997)</p>
+                <input type="checkbox" id="film5" name="film">
+            </span>
+            <span class="film6">
+                <img src="6.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">Clash of the Titans (2010) </p>
+                <input type="checkbox" id="film6" name="film">
+            </span>
+            <span class="film7">
+                <img src="7.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">Wrath Of The Titans (2012)</p>
+                <input type="checkbox" id="film7" name="film">
+            </span>
+            <span class="film8">
+                <img src="8.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">Immortals (2011)</p>
+                <input type="checkbox" id="film8" name="film">
+            </span>
+            <span class="film9">
+                <img src="9.jpg" class="photo" alt="Text in case pic link is broken" />
+                <br>
+                <p class="films">Hercules (2014)</p>
+                <input type="checkbox" id="film9" name="film">
+            </span>
+        </div>
+
+        <div class="center">
+            <button type="button" id="submit">Submit</button>
+        </div>
+    </main>
+</body>
+
+</html>
